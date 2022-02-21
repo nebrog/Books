@@ -5,7 +5,10 @@
       <map>
         <entry key="..\:/Users/Uspeh/AndroidStudioProjects/Books/app/src/main/res/layout/activity_main.xml" value="0.1272644927536232" />
         <entry key="..\:/Users/Uspeh/AndroidStudioProjects/Books/app/src/main/res/layout/blank_fragment.xml" value="0.1272644927536232" />
+        <entry key="..\:/Users/Uspeh/AndroidStudioProjects/Books/app/src/main/res/layout/book_with_author_fragment.xml" value="0.10235507246376811" />
         <entry key="..\:/Users/Uspeh/AndroidStudioProjects/Books/app/src/main/res/layout/books_fragment.xml" value="0.1" />
+        <entry key="..\:/Users/Uspeh/AndroidStudioProjects/Books/app/src/main/res/layout/recycler.xml" value="0.11594202898550725" />
+        <entry key="..\:/Users/Uspeh/AndroidStudioProjects/Books/app/src/main/res/layout/recycler_item.xml" value="0.10235507246376811" />
       </map>
     </option>
   </component>

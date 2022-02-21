@@ -10,9 +10,14 @@
         android:name="com.example.books.ui.book_list.BooksFragment"
         android:label="books_fragment"
         tools:layout="@layout/books_fragment" >
+        <argument
+            android:name="authorId"
+            app:argType="integer"
+            />
         <action
             android:id="@+id/action_books_to_bookWithAuthor"
-            app:destination="@id/bookWithAuthor" />
+            app:destination="@id/bookWithAuthor"
+            />
     </fragment>
     <fragment
         android:id="@+id/bookWithAuthor"

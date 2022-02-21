@@ -9,7 +9,8 @@ import com.example.books.data.book_table.BookListDao;
 import com.example.books.data.book_table.BooksList;
 
 @Database(entities = {BooksList.class, AuthorList.class}, version = 1)
-    public abstract class BookDatabase extends RoomDatabase {
-        public BookListDao bookListDao;
-        public AuthorListDao authorListDao;
-    }
+public abstract class BookDatabase extends RoomDatabase {
+    public abstract BookListDao bookListDao();
+    public abstract AuthorListDao authorListDao();
+}
+
